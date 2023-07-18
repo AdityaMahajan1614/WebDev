@@ -320,6 +320,9 @@ body{
   display: flex;
   color: rgb(231, 233, 234);
 }
+.tweet-1:hover{
+  cursor: pointer;
+}
 .acm-pfp{
   width: 40px;
   border-radius: 20px;
