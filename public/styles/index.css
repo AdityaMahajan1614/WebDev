@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    margin-top: 100px ;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../3840x2160.jpg");
+    background-color: black;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 2vh;
+}
+.name{
+    font-family: 'Playfair Display', serif;
+    font-size: 7vh;
+    color:rgb(255, 255, 237);
+    padding: 3vh 0vh 2vh 2vh;
+    display: inline;
+}
+.navbar{
+    background-color: black;
+    display: flexbox;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.navigation{
+    color: rgb(255, 255, 237);
+    text-align: right;
+    margin-top: -5vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+    font-size: 4vh;
+}
+.home , .blog{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 237);
+}
+.input-form{
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 2vh;
+    margin: 1vh;
+    background-color:azure;
+    border-radius: 1vh;
+    border: none;
+}
+form{
+    background-color:blanchedalmond;
+    border-radius: 1vh;
+    padding: 4vh 0vh;
+    width: 400px;
+}
+#post{
+    margin-left: 30%;
+    width: 40%;
+    font-size: 20px;
+    color: purple;
+    border-radius: 1vh;
+    background-color: aqua;
+    transition: background-color 0.1s;
+}
+#post:hover{
+    background-color:aquamarine;
+}
+#content{
+    height: 80px;
+    margin-left: 7%;
+    width: 80%;
+    font-size: 20px;
+}
+#name{
+    margin-left: 7%;
+    width: 80%;
+    font-size: 20px;
+}
+.blogbox{
+    border: none;
+    border-width: 1px;
+    width: 60%;
+    margin: 15px 20%;
+    background-color: rgb(255, 255, 154,0.8);
+    border-radius: 5px;
+}
+p,h3{
+    margin: 0;
+    padding: 5PX 10px;
+}
+h1{
+    color: rgb(208, 250, 171);
+    text-align: center;
+}
+.create-button{
+    background-color: rgb(248, 248, 32);
+    width: 8%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 46%;
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(248, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-button:hover{
+    background-color: rgb(222, 222, 5);
+    transition: background-color 0.1s;
+}
+
